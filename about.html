@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About · Lian Gabriel C. Flora</title>
+  <meta name="description" content="Portfolio of Lian Gabriel C. Flora, BSIT student at Bulacan State University.">
+
+  
+  <script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="avatar" aria-hidden="true">LF</span>
+      <span class="brand-name">Lian Flora</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch dark / light mode">
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <main class="container">
+
+    <div class="page-head">
+      <span class="page-num">01</span>
+      <h1>About</h1>
+      <p>Who I am</p>
+    </div>
+
+    <section class="about">
+      <p class="intro">Hi! I'm Lian, an IT student who learns best by <em>building things</em>. I like the frontend side most: creating designs and user experiences, and figuring out how to make them work.</p>
+      <dl class="facts">
+        <div><dt>From</dt><dd>Marilao, Bulacan</dd></div>
+        <div><dt>Started</dt><dd>BSIT, 2023</dd></div>
+        <div><dt>Focus</dt><dd>Frontend &amp; user experience</dd></div>
+        <div><dt>Currently</dt><dd>Pa-Tag</dd></div>
+      </dl>
+    </section>
+
+    <
+    <section class="section" aria-labelledby="edu-h">
+      <h2 class="section-title" id="edu-h">Education <span>Where I studied</span></h2>
+      <ol class="timeline">
+        <li class="current">
+          <span class="year">2023 – Present</span>
+          <strong>BS Information Technology</strong>
+          <span class="school-name">Bulacan State University</span>
+        </li>
+        <li>
+          <span class="year">6 years · JHS + SHS</span>
+          <strong>High School</strong>
+          <span class="school-name">School of Our Lady of La Salette</span>
+        </li>
+        <li>
+          <span class="year">6 years</span>
+          <strong>Elementary</strong>
+          <span class="school-name">School of Our Lady of La Salette</span>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span class="label">Say hi</span>
+        <p class="footer-title">Let's <em>talk</em>.</p>
+      </div>
+      <div class="email-box">
+        <span class="email" id="emailText">liangabriel.flora@gmail.com</span>
+        <button id="copyBtn">Copy email</button>
+        <span class="copy-msg" id="copyMsg" role="status"></span>
+      </div>
+    </div>
+    <p class="container footer-note">Lian Gabriel C. Flora · BSIT 3H-G2 · Bulacan State University</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

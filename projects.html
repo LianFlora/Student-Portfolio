@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · Lian Gabriel C. Flora</title>
+  <meta name="description" content="Portfolio of Lian Gabriel C. Flora, BSIT student at Bulacan State University.">
+
+  
+  <script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="avatar" aria-hidden="true">LF</span>
+      <span class="brand-name">Lian Flora</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch dark / light mode">
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <main class="container">
+
+    <div class="page-head">
+      <span class="page-num">03</span>
+      <h1>Projects</h1>
+      <p>What I've built</p>
+    </div>
+
+    <section class="projects">
+      <article class="project featured">
+        <span class="project-type">Advance Web · Current</span>
+        <h2>Pa-Tag</h2>
+        <p>AI-assisted pothole tracker prototype for LGUs.</p>
+        <span class="project-tech">Web · AI</span>
+      </article>
+      <article class="project">
+        <span class="project-type">Mobile</span>
+        <h2>EventHub</h2>
+        <p>App for browsing and joining student events.</p>
+        <span class="project-tech">Flutter · Firebase</span>
+      </article>
+      <article class="project">
+        <span class="project-type">Mobile</span>
+        <h2>BudgetBuddy</h2>
+        <p>Budget and expense tracker app.</p>
+        <span class="project-tech">Flutter · Dart</span>
+      </article>
+    </section>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span class="label">Say hi</span>
+        <p class="footer-title">Let's <em>talk</em>.</p>
+      </div>
+      <div class="email-box">
+        <span class="email" id="emailText">liangabriel.flora@gmail.com</span>
+        <button id="copyBtn">Copy email</button>
+        <span class="copy-msg" id="copyMsg" role="status"></span>
+      </div>
+    </div>
+    <p class="container footer-note">Lian Gabriel C. Flora · BSIT 3H-G2 · Bulacan State University</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

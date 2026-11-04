@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lian Gabriel C. Flora · Portfolio</title>
+  <meta name="description" content="Portfolio of Lian Gabriel C. Flora, BSIT student at Bulacan State University.">
+
+ 
+  <script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="avatar" aria-hidden="true">LF</span>
+      <span class="brand-name">Lian Flora</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch dark / light mode">
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+  </header>
+
+  <main class="container">
+
+    
+    <section class="hero">
+      <span class="tag">BSIT · 3H-G2</span>
+      <h1>Lian Gabriel <em>C. Flora</em></h1>
+      <p class="school">Bulacan State University</p>
+      <p class="bio">IT student who enjoys frontend, UI and UX design.</p>
+      <a class="btn" href="projects.html">See my projects <span aria-hidden="true">→</span></a>
+    </section>
+
+    
+    <section class="explore" aria-label="Explore">
+      <a class="explore-card" href="about.html">
+        <span class="page-num">01</span>
+        <h2>About</h2>
+        <p>Who I am, where I'm from, and where I studied.</p>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="explore-card" href="skills.html">
+        <span class="page-num">02</span>
+        <h2>Skills</h2>
+        <p>The languages, frameworks and design tools I use.</p>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="explore-card" href="projects.html">
+        <span class="page-num">03</span>
+        <h2>Projects</h2>
+        <p>Web and mobile apps I've built, including Pa-Tag.</p>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+    </section>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span class="label">Say hi</span>
+        <p class="footer-title">Let's <em>talk</em>.</p>
+      </div>
+      <div class="email-box">
+        <span class="email" id="emailText">liangabriel.flora@gmail.com</span>
+        <button id="copyBtn">Copy email</button>
+        <span class="copy-msg" id="copyMsg" role="status"></span>
+      </div>
+    </div>
+    <p class="container footer-note">Lian Gabriel C. Flora · BSIT 3H-G2 · Bulacan State University</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
